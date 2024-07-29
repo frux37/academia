@@ -7,7 +7,7 @@ package modelo;
 import java.util.Date;
 import java.text.SimpleDateFormat;
 /**
- *
+ * 
  * @author CHARLES
  */
 public class Professor extends Pessoa {
