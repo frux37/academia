@@ -42,17 +42,23 @@ public class TesteCadastro {
         af3.setAltura(1.90);
         af3.setPercGordura(23.0);
         
+        AvaliacaoFisica af4 = new AvaliacaoFisica(a2, prof2);
+        af4.setPeso(100.00);
+        af4.setAltura(1.93);
+        af4.setPercGordura(25.0);
+        
         a1.addAvaliacaoFisica(af1);
         a1.addAvaliacaoFisica(af2);
         a2.addAvaliacaoFisica(af3);
+        a2.addAvaliacaoFisica(af4);
         
         System.out.println(a1.mostraInfo());
         System.out.println(a2.mostraInfo());
         
-        System.out.println("\nAvaliacoes Fisicas");
-        System.out.println(af1.mostraAvaliacao());
-        System.out.println(af2.mostraAvaliacao());
-        System.out.println(af3.mostraAvaliacao());
+        //System.out.println("\nAvaliacoes Fisicas");
+        //System.out.println(af1.mostraAvaliacao());
+        //System.out.println(af2.mostraAvaliacao());
+        //System.out.println(af3.mostraAvaliacao());
         
     }
     

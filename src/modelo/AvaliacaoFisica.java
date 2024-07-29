@@ -40,10 +40,10 @@ public class AvaliacaoFisica {
     public double getPercGordura() {
         return percGordura;
     }
-    public Pessoa getAluno() {
+    public Aluno getAluno() {
         return aluno;
     }
-    public Pessoa getProfessor() {
+    public Professor getProfessor() {
         return professor;
     }
     
