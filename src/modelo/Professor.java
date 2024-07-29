@@ -46,4 +46,9 @@ public class Professor extends Pessoa {
     public String toString() {
         return getNome();
     }
+    
+    //@Override
+    //public void viraMes(Object obj) {
+        
+    //}
 }

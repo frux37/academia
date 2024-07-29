@@ -63,4 +63,9 @@ public class Aluno extends Pessoa {
     public void informaDataNascimento(){
         super.dataNascimento = new Date();
     }
+    
+    //@Override
+    //public void viraMes(Object obj) {
+    //    addAvaliacaoFisica(AvaliacaoFisica );
+    //}
 }

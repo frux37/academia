@@ -58,4 +58,7 @@ public abstract class Pessoa {
         }
         return texto;
     }
+    
+    //método abstrato
+    //public abstract void viraMes(Object obj);
 }
