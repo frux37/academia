@@ -23,7 +23,7 @@ public class TesteCadastro {
         a2.setNome("Carlos Augusto Segala Aguirre");
         a2.setCPF("030.549.710.31");
         
-        Professor prof1 = new Professor("Dr. Pauno Cuzy", 150.00);
+        Professor prof1 = new Professor("Dr. thunder cock", 150.00);
         Professor prof2 = new Professor("Dr. Neaderthal", 200.00);
         Professor prof3 = new Professor ("Dr. Manhattan", 300.00);
         
